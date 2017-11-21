@@ -11,4 +11,10 @@ import scrapy
 class NovelItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    title = scrapy.Field()
+    content = scrapy.Field()
+    chapter_num = scrapy.Field()
+    novel_id = scrapy.Field()
+    chapter_source_url = scrapy.Field()
+    
     pass
